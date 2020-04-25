@@ -1,0 +1,37 @@
+{
+  "navbar": {
+    "apartments": "Apartmani",
+    "findUs": "Kako do nas",
+    "login": "Prijavite se",
+    "signUp": "Registrirajte se",
+    "logOut": "Odjavite se"
+  },
+  "novalja": {
+    "pag": [
+      "turističko središte otoka Paga, poznato ljetovalište i odredište brojnih turista, nudi mogućnost aktivnog i sadržajnog odmora",
+      "ima dugu i bogatu prošlost o čemu svjedoče brojni ostaci antičkih građevina, a jedan od najpoznatijih je jedinstveni antički vodovod isklesan u živom kamenu iz 1. stoljeća",
+      "13/06-blagdan Sv. Antona, koji se ujedno slavi kao Dan grada Novalje, smatra se i početkom Novaljskog kulturnog ljeta u sklopu kojeg se organiziraju brojni kulturno-umjetnički i zabavni sadržaji"
+    ],
+    "novalja": [
+      "jedan od najvećih Jadranskih otoka: s 285 km 2 peti po veličini, a s 270 km razvedene obale otok je s najduljom obalnom linijom na Jadranu, prepunom zaljeva, uvalica, rtova i plaža",
+      "jedinstven po vegetacijskom habitatu u kojem stabala gotovo i da nema",
+      "najveće carstvo kamenjara na Jadranu ispresijecano dugim suhozidima, u kojemu raste tanka trava, nisko aromatično bilje, kadulja i smilje, a upravo to aromatično bilje je osnova u prehrani paških ovaca na kamenjaru te ono daje poseban okus poznatom paškom siru"
+    ],
+    "beaches": "Plaže",
+    "strasko": "Kamp Straško",
+    "caska": "Uvala Caska",
+    "food": "Hrana",
+    "cheese": "Paški Sir",
+    "lamb": "Janjetina",
+    "excursions": "Izleti",
+    "plitvice": "Plitvička jezera",
+    "velebit": "Sjeverni Velebit"
+  },
+  "footer": {
+    "island": "otok",
+    "croatia": "Hrvatska",
+    "developed": "Razvio",
+    "designed": "Dizajnirala",
+    "logo": "Logo dizajnirao"
+  }
+}
