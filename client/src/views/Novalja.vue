@@ -33,7 +33,7 @@
             <figure class="image is-16by9">
               <img src="../assets/pictures/beaches/caska.jpg" alt="Caska Beach" />
             </figure>
-            <h4 class="title is-4">Uvala Caska</h4>
+            <h4 class="title is-4">{{ $t('novalja.caska') }}</h4>
           </a>
         </div>
         <div class="column is-half-mobile is-3-tablet">
@@ -186,26 +186,32 @@ export default {};
 </script>
 
 <style scoped>
-.padded {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+ul {
+  list-style-type: circle;
 }
 
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(37, 37, 109);
+}
+
+li {
+  font-size: 1.1rem;
+}
+</style>
+
+<style>
 .title {
   text-align: center;
   color: white;
-}
-
-ul {
-  list-style-type: circle;
 }
 
 .mt-2 {
   margin-top: 2rem;
 }
 
-a:hover {
-  text-decoration: underline;
-  text-decoration-color: rgb(37, 37, 109);
+.padded {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 </style>
