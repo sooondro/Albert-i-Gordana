@@ -74,7 +74,7 @@
       </div>
     </nav>
     <router-view />
-    <footer class="footer">
+    <footer class="footer mt-2">
       <div class="columns is-vcentered ordered-mobile">
         <div class="column has-text-centered-mobile fl-2">
           <p><font-awesome-icon icon="home" />Albert & Gordana Semenčić</p>

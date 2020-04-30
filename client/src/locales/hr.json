@@ -33,5 +33,19 @@
     "developed": "Razvio",
     "designed": "Dizajnirala",
     "logo": "Logo dizajnirao"
+  },
+  "home": {
+    "albertInfo": [
+      "Klobučići bb, Novalja",
+      "kuća Albert je udaljena 500 m od mora i 1500 m od centra Novalje",
+      "6 apartmana",
+      "gostima je na raspolaganju hacienda sa ljetnom kuhinjom te su svi apartmani imaju SAT/TV, klima uređajima i internetom"
+    ],
+    "gordanaInfo": [
+      "Primorska 11, Novalja",
+      "kuća Gordana se nalazi direktno na moru i 250 m od centra Novalje",
+      "1 apartman",
+      "apartman za 4 osobe opremljen je sa SAT/TV, klima uređajem i internetom"
+    ]
   }
 }

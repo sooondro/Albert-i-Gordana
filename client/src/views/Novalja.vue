@@ -144,7 +144,7 @@
             <h4 class="title is-4">Kornati</h4>
           </a>
         </div>
-                <div class="column is-half-mobile is-one-fifth-tablet">
+        <div class="column is-half-mobile is-one-fifth-tablet">
           <a href="http://www.np-krka.hr/hr/">
             <figure class="image is-16by9">
               <img src="../assets/pictures/fieldTrips/krka.jpg" alt="Krka" />
@@ -152,7 +152,7 @@
             <h4 class="title is-4">Krka</h4>
           </a>
         </div>
-                <div class="column is-4-mobile is-one-fifth-tablet">
+        <div class="column is-4-mobile is-one-fifth-tablet">
           <a href="https://www.zadar.travel/hr/vodic/zadarski-otoci/09-12-2010/olib#.XdW1N1dKhPY">
             <figure class="image is-16by9">
               <img src="../assets/pictures/fieldTrips/olib.jpg" alt="Olib" />
@@ -160,7 +160,7 @@
             <h4 class="title is-4">Olib</h4>
           </a>
         </div>
-                <div class="column is-4-mobile is-one-fifth-tablet">
+        <div class="column is-4-mobile is-one-fifth-tablet">
           <a href="https://www.np-paklenica.hr/hr/">
             <figure class="image is-16by9">
               <img src="../assets/pictures/fieldTrips/paklenica.jpeg" alt="Paklenica" />
@@ -168,7 +168,7 @@
             <h4 class="title is-4">Paklenica</h4>
           </a>
         </div>
-                <div class="column is-4-mobile is-one-fifth-tablet">
+        <div class="column is-4-mobile is-one-fifth-tablet">
           <a href="http://www.np-sjeverni-velebit.hr/">
             <figure class="image is-16by9">
               <img src="../assets/pictures/fieldTrips/velebit.jpg" alt="North Velebit" />
@@ -186,10 +186,6 @@ export default {};
 </script>
 
 <style scoped>
-ul {
-  list-style-type: circle;
-}
-
 a:hover {
   text-decoration: underline;
   text-decoration-color: rgb(37, 37, 109);
@@ -201,6 +197,10 @@ li {
 </style>
 
 <style>
+ul {
+  list-style-type: circle;
+}
+
 .title {
   text-align: center;
   color: white;
