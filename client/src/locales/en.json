@@ -47,5 +47,90 @@
       "1 apartman",
       "apartman za 4 osobe opremljen je sa SAT/TV, klima uređajem i internetom"
     ]
+  },
+  "houses": {
+    "albert": {
+      "list": [
+        "Kuća Albert ima 5 apartmana",
+        "Svi apartmani opremljeni sa SAT/TV, Klima uređajima, Internet",
+        "Balkoni sa pogledom na more",
+        "Kuća je udaljena 500m od mora, 1500m od centra Novalje",
+        "Gostima je na raspolaganju hacienda sa ljetnom kuhinjom"
+      ],
+      "description": {
+        "title": "Ambijent koji će vam odmoriti tijelo i dušu u okruženju maslina i cvijeća.",
+        "text": [
+          "Večernji ugođaj u hacijendi za druženje, ostaviti će na Vas poseban osjećaj zadovoljstva u pripremanju roštilja i ostalih delicija po vašoj želji, te stvoriti raspoloženje za daljnji nastavak zabave u Gradu Novalji i poznatoj plaži Zrće do jutarnjih sati.",
+          "Otprilike 10 minuta do samog centra dolazite pješke u središte Grada i punktova koji će vam pružiti ostale ugostiteljske ponude."
+        ]
+      }
+    },
+    "gordana": {
+      "list": [
+        "Kuća Gordana nalazi se direktno na moru, 250m od centra Novalje",
+        "1 apartman za 4 osobe",
+        "Apartman je opremljen sa klima uređajem i SAT/TV, Internet"
+      ],
+      "description": {
+        "title": "Kuću Gordana odlikuje direktni i prekrasni pogled na more i uvalu Novalje, te plažu ispred kuće",
+        "text": [
+          "Apartman Gordana udaljen je svega 5 metra od mora i ima svoj parking.",
+          "Ispred kuće prolazi šetnica koja Vas u jednom smjeru vodi preko centra Novalje (Lože) pa sve do plaže Vrtić Novalje, a u drugom prema plaži Babe, jednoj od najljepših pješčanih plaža u Novalji."
+        ]
+      }
+    }
+  },
+  "apartments": [
+    {
+      "title": "Apartman 1 - Typ/2+1",
+      "description": [
+        "1. Kat, 23 m2 + balkon",
+        "Jedna trokrevetna soba sa bračnim i pomoćnim krevetom",
+        "Kuhinja sa blagovaonicom, WC sa tuš kabinom",
+        "Balkon sa garniturom za sjedenje i pogledom na more"
+      ]
+    },
+    {
+      "title": "Apartman 2 - Typ/2+1",
+      "description": [
+        "1. Kat, 23 m2 + balkon",
+        "Jedna trokrevetna soba sa bračnim krevetom i pomoćnim krevetom",
+        "Kuhinja sa blagovaonicom, WC sa tuš kabinom",
+        "Balkon sa garniturom za sjedenje i pogledom na more"
+      ]
+    },
+    {
+      "title": "Apartman 3 - Typ/2S+1",
+      "description": [
+        "1. Kat, 27 m2 + balkon",
+        "Jedna trokrevetna soba sa bračnim krevetom i pomoćnim krevetom, kuhinja i blagovaonica u jednom prostoru",
+        "WC sa tuš kabinom",
+        "Balkon sa garniturom za sjedenje i pogledom na more"
+      ]
+    },
+    {
+      "title": "Apartman 4 - Typ/2+3",
+      "description": [
+        "1. Kat, 35 m2 + balkon",
+        "Jedna trokrevetna soba sa bračnim krevetom",
+        "Jedna dvokrevetna soba sa odvojenim krevetima",
+        "Kuhinja sa blagovaonica, WC sa tuš kabinom",
+        "Balkon sa garniturom za sjedenje i pogledom na more"
+      ]
+    },
+    {
+      "title": "Apartman Gordana - Typ/2+2",
+      "description": [
+        "Prizemno, 38 m2",
+        "Jedna dvokrevetna soba sa bračnim krevetom i krevetima na kat",
+        "Kuhinja sa blagovaonicom, WC sa tuš kabinom",
+        "Balkon sa garniturom za sjedenje i pogledom na more",
+        "Parking mjesto i vanjski roštilj"
+      ]
+    }
+  ],
+  "apartment": {
+    "cheaper": "Tražite nešto jeftinije?",
+    "moreInfo": "Pogledaj više"
   }
 }

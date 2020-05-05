@@ -8,22 +8,26 @@
     <div class="container mt-2">
       <div class="columns">
         <div class="column">
-          <h5 class="title is-5">Albert</h5>
-          <figure class="image is-4by3">
-            <img src="../assets/pictures/homepage/gordana.jpg" alt="House Gordana">
-          </figure>
-          <ul>
-            <li v-for="(item, index) in $t('home.albertInfo')" :key="index">{{ item }}</li>
-          </ul>
+          <router-link :to="`/${$i18n.locale}/houses`">
+            <h5 class="title is-5">Albert</h5>
+            <figure class="image is-4by3">
+              <img src="../assets/pictures/homepage/gordana.jpg" alt="House Gordana">
+            </figure>
+            <ul>
+              <li v-for="(item, index) in $t('home.albertInfo')" :key="index">{{ item }}</li>
+            </ul>
+          </router-link>
         </div>
         <div class="column">
-          <h5 class="title is-5">Gordana</h5>
-          <figure class="image is-4by3">
-            <img src="../assets/pictures/homepage/gordana.jpg" alt="House Gordana">
-          </figure>
-          <ul>
-            <li v-for="(item, index) in $t('home.gordanaInfo')" :key="index">{{ item }}</li>
-          </ul>
+          <router-link :to="`/${$i18n.locale}/houses`">
+            <h5 class="title is-5">Gordana</h5>
+            <figure class="image is-4by3">
+              <img src="../assets/pictures/homepage/gordana.jpg" alt="House Gordana">
+            </figure>
+            <ul>
+              <li v-for="(item, index) in $t('home.gordanaInfo')" :key="index">{{ item }}</li>
+            </ul>
+          </router-link>
         </div>
       </div>
     </div>
@@ -39,13 +43,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.column figure:hover {
+.column {
+  border: 1px solid black;
+}
+
+.column:hover {
   border: 1px solid white;
 }
 
 .caption {
-  position: absolute;
-  top: 80%;
+  position: relative;
+  top: 90%;
   width: 100%;
   text-align: center;
 }

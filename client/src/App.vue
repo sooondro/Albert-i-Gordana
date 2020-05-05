@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <router-link :to="`/${$i18n.locale}`" class="navbar-item">
           <img class="logo" src="./assets/logo.png">
@@ -242,6 +242,10 @@ a.navbar-item:hover {
 
 .footer {
   background-color: black;
+}
+
+li {
+  padding-top: 0.5rem;
 }
 
 @media screen and (max-width: 769px) {

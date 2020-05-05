@@ -3,6 +3,9 @@ import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import Novalja from '../views/Novalja.vue';
 import FindUs from '../views/FindUs.vue';
+import Houses from '../views/Houses.vue';
+import Apartments from '../views/Apartments.vue';
+import Apartment from '../views/Apartment.vue';
 import i18n from '../i18n';
 
 Vue.use(VueRouter);
@@ -32,6 +35,21 @@ const routes = [
         path: 'findUs',
         name: 'FindUs',
         component: FindUs,
+      },
+      {
+        path: 'houses',
+        name: 'Houses',
+        component: Houses,
+      },
+      {
+        path: 'apartments',
+        name: 'Apartments',
+        component: Apartments,
+      },
+      {
+        path: 'apartment',
+        name: 'Apartment',
+        component: Apartment,
       },
     ],
   },
