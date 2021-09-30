@@ -1,32 +1,65 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+  <v-app>
+    <Header></Header>
+
+    <v-main class="mb-5 mt-5">
+      <transition name="slide" mode="out-in">
+        <router-view></router-view>
+      </transition>
+    </v-main>
+
+    <Footer></Footer>
+  </v-app>
 </template>
 
+<script>
+import Header from './components/header/Header.vue'
+import Footer from './components/footer/Footer.vue'
+
+export default {
+  name: 'App',
+
+  components: {
+    Header,
+    Footer
+  },
+  created () {
+    this.$store.dispatch('attemptAutoLogin')
+    this.$store.dispatch('fetchUsers')
+    this.$store.dispatch('initApartments')
+    this.$store.dispatch('initReservations')
+  }
+}
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+.slide-enter-active {
+  animation: slide-in 200ms ease-out forwards;
 }
 
-#nav {
-  padding: 30px;
+.slide-leave-active {
+  animation: slide-out 200ms ease-out forwards;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+@keyframes slide-in {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+@keyframes slide-out {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
 }
 </style>
